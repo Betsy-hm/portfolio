@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estructura general */
+body {
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Navegación */
+nav {
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background: #1e293b;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Habilidades */
+.coluna {
+    margin-top: 20px;
+}
+
+/* Proyectos */
+.card, .projeto {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.projeto a, .card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1e3a8a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Formulario */
+.contato-contenedor {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.campo-form {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #162d6b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    #habilidades {
+        display: flex;
+        gap: 20px;
+    }
+
+    .coluna {
+        flex: 1;
+    }
+}
